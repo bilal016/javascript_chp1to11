@@ -381,20 +381,125 @@
 
 
 // //#6
-var sub1, sub2, sub3;
-var tnum = 100;
-var onum1, onum2, onum3;
-var per1, per2, per3;
-sub1 = prompt("Enter First subject name", "English");
-sub2 = prompt("Enter 2nd subject name", "Math");
-sub3 = prompt("Enter 3rd subject name", "Urdu");
-onum1 = +prompt("Enter First subject Obtained Number", "54");
-onum2 = +prompt("Enter 2nd subject Obtained Number", "54");
-onum3 = +prompt("Enter 3rd subject Obtained Number", "48");
-per1 = onum1/tnum*100;
-per2 = onum2/tnum*100;
-per3 = onum3/tnum*100;
-document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr></table>");
-document.write(sub1,"                ",tnum,"                       ", onum1,"                         ", per1, "%");
-document.write("<br>",sub2,"                ",tnum,"                       ", onum2,"                         ", per2, "%");
-document.write("<br>",sub3,"                ",tnum,"                       ", onum3,"                         ", per3, "%");
+// var sub1, sub2, sub3;
+// var tnum = 100;
+// var onum1, onum2, onum3;
+// var per1, per2, per3;
+// sub1 = prompt("Enter First subject name", "English");
+// sub2 = prompt("Enter 2nd subject name", "Math");
+// sub3 = prompt("Enter 3rd subject name", "Urdu");
+// onum1 = +prompt("Enter First subject Obtained Number", "54");
+// onum2 = +prompt("Enter 2nd subject Obtained Number", "54");
+// onum3 = +prompt("Enter 3rd subject Obtained Number", "48");
+// per1 = onum1/tnum*100;
+// per2 = onum2/tnum*100;
+// per3 = onum3/tnum*100;
+// document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr></table>");
+// document.write(sub1,"                ",tnum,"                       ", onum1,"                         ", per1, "%");
+// document.write("<br>",sub2,"                ",tnum,"                       ", onum2,"                         ", per2, "%");
+// document.write("<br>",sub3,"                ",tnum,"                       ", onum3,"                         ", per3, "%");
+
+
+// //-------------------------chap9-11-----------------------------
+// //#1
+// var input = prompt("Enter City Name","Karachi");
+// if(input == "Karachi"){
+//     document.write("Welcome to City of Lights")
+// }
+// else{
+//     document.write("Welcome")
+// }
+
+
+// //#2
+// var input = prompt("Enter your Gender","M(Male) or F(Female)");
+// if(input == "m"){
+//     document.write("Good Morning Sir")
+// }
+// else if(input == "f"){
+//     document.write("Good Morning Madam")
+// }
+// else{
+//     document.write("Invalid Value")
+// }
+
+
+// //#3
+// var input = prompt("Enter Color of your choice","R(Red) | Y(Yellow) | G(Green)");
+// if(input == "r"){
+//     document.write("Must Stop")
+// }
+// else if(input == "y"){
+//     document.write("Ready to Move")
+// }
+// else if(input == "g"){
+//     document.write("Move now")
+// }
+// else{
+//     document.write("Invalid Value")
+// }
+
+
+// //#4
+// var input = +prompt("Enter remaining fuel","5.00");
+// if(input <= 0.25){
+//     document.write("Please refill the fuel in your car");
+// }
+// else{
+//     document.write("Fuel is enough");
+// }
+
+
+// //#5
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+// //Output = given condition for variable a is true
+
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// //Output == no alert
+
+
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// // Output = condition 2 is true and condition 4 is true
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+// // Output = The cost equals
+
+
+// if (true){
+//     alert("True");
+//     }
+//     if (false){
+//     alert("False");
+//     }
+// // Output = True
+
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+// // Output = car is smaller than cat    
